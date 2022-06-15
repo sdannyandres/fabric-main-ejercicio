@@ -1,0 +1,22 @@
+{
+  "name": "fabric-ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "desarrollo": "dotenv-run-script .env --",
+    "contrato": "fabric-chaincode-node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.3",
+    "fabric-shim": "^2.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "dotenv-run-script": "^0.2.0"
+  }
+}
